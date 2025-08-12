@@ -1,5 +1,11 @@
-function BasicReact() {
-	return <div>Hello!! React!!</div>;
+import React from 'react'
+
+function App() {
+  return (
+	<div>
+		<p>Hello! World!!</p>
+	</div>
+  )
 }
 
-export default BasicReact;
+export default App

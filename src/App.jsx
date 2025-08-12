@@ -1,9 +1,13 @@
 import "./App.css";
 import BasicJsx from "./components/BasicJsx/BasicJsx";
 import BasicProps from "./components/BasicProps/BasicProps";
+import FruitsFilter from "./components/BasicProps/Practice/FruitsFilter/FruitsFilter";
+import Userprofile from "./components/BasicProps/Practice/Userprofile/Userprofile";
 import BasicReact from "./components/BasicReact/BasicReact";
 import Calculator from "./components/BasicState/Calculator/Calculator";
 import CountState from "./components/BasicState/CountState/CountState";
+import Effect1 from "./components/BasicState/Effect/Effect1/Effect1";
+import Effect2 from "./components/BasicState/Effect/Effect2/Effect2";
 import InputState1 from "./components/BasicState/InputState1/InputState1";
 import InputState2 from "./components/BasicState/InputState2/InputState2";
 import InputState3 from "./components/BasicState/InputState3/InputState3";
@@ -28,7 +32,11 @@ function App() {
 			{/* <DomRef/> */}
 			{/* <Render/> */}
 			{/* <LifeCycle/> */}
-			<LifeCycleApp/>
+			{/* <LifeCycleApp/> */}
+			{/* <Effect1/> */}
+			{/* <Effect2/> */}
+			{/* <FruitsFilter/> */}
+			<Userprofile/>
 		</>
 	);
 }
